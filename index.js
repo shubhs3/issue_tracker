@@ -1,9 +1,14 @@
 const express = require("express");
 const path = require("path");
 const app = express();
+const cors = require('cors');
+require("dotenv").config();
 
 const db = require("./Config/mongoose");
+const port = process.env.PORT || 6010;
 
+
+app.use(cors());
 app.use(express.static("./Assets"));
 
 // set up express layouts
@@ -24,6 +29,6 @@ app.use(express.urlencoded({ extended: true }));
 // use express router
 app.use("/", require("./Routes"));
 
-app.listen(3000, () => {
+app.listen(port, () => {
 	console.log("Running on port 3000");
 });
