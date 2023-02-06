@@ -1,0 +1,23 @@
+body{
+    background: #1e1e24;
+    /* height: 100vh;
+    overflow: hidden; */
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.header{
+    background: linear-gradient(0deg, #0F0F0F 50%, #7585FF 100%);
+}
+
+
+.footer{
+    background: linear-gradient(180deg, #0F0F0F 50%, #7585FF 100%);
+}
+
+.navbar-brand{
+    color: white;
+}

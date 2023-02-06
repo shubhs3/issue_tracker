@@ -1,0 +1,23 @@
+.projectBox{
+    background: rgba(0, 0, 0, 0.3);
+    margin-bottom: 30px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.projectBox:hover{
+    cursor: pointer;
+    opacity: .8;
+}
+
+.container{
+    overflow-y: scroll;
+    max-height: 85vh;
+    padding-top: 20px;
+}
+
+.date_div{
+    display: flex;
+    justify-content: space-between;
+}
