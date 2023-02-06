@@ -1,4 +1,4 @@
-const Project = require('../models/project');
+const Project = require('../Models/project');
 module.exports.home = async function (req, res) {
   try {
     let projects = await Project.find({}).sort('-createdAt');

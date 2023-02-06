@@ -1,5 +1,5 @@
-const Project = require('../models/project');
-const Issue = require('../models/issue');
+const Project = require('../Models/project');
+const Issue = require('../Models/issue');
 const { findById } = require('../models/project');
 
 // create a project for the user
