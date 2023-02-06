@@ -21,7 +21,7 @@ app.set("layout extractScripts", true);
 
 // set up the view engine
 app.set("view engine", "ejs");
-app.set("views", path.join(__dirname, "Views"));
+app.set("views", path.join(__dirname, "views"));
 
 // parses incoming requests with urlencoded payloads
 app.use(express.urlencoded({ extended: true }));
